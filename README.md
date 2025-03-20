@@ -16,7 +16,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/oktayyavuz/instagram-videos-downloader.git
+git clone https://github.com/oktayyavuz/instagram-video-downloader.git
 
 # Proje dizinine gidin
 cd instagram-videos-downloader

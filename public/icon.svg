@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    :root {
+      --icon-color: #6366f1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --icon-color: #a5b4fc;
+      }
+    }
+    path, circle {
+      stroke: var(--icon-color);
+      fill: var(--icon-color);
+      stroke-width: 1.5;
+    }
+    .bg {
+      fill: white;
+      stroke: none;
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg {
+        fill: #1e1e2e;
+      }
+    }
+  </style>
+  <circle class="bg" cx="12" cy="12" r="11" />
+  <path d="M12 17.5L12 6.5" />
+  <path d="M7 12.5L12 17.5L17 12.5" />
+  <circle cx="12" cy="6.5" r="1.5" />
+</svg> 
